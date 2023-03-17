@@ -1,4 +1,7 @@
-# Unity Patcher Downloader for Many function inlude :
+# Unity Patcher Downloader
+
+Unity Program for PATCH, UPDATE or DOWNLOAD certain files from the link , the functions include :
+
 - Update 
 - Download 
 - Patch
