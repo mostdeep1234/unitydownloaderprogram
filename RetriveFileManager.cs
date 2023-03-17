@@ -111,7 +111,7 @@ public class RetriveFileManager : MonoBehaviour
                 string url = task.Result.ToString();
 
                 // ... now download the file via WWW or UnityWebRequest.
-                string pathCheckToImagineClient = Path.Combine(currentDir, "ImagineClient.exe"); 
+                string pathCheckToImagineClient = Path.Combine(currentDir, "INSERT_EXE_PATH_ON_CURRENT_DIRECTORY"); 
 
                 //check the file if ImagineClient.exe is on the local directory
                 if(File.Exists(pathCheckToImagineClient))StartCoroutine(DownloadFileOperation(url));
