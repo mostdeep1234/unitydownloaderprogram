@@ -92,7 +92,7 @@ public class RetriveFileManager : MonoBehaviour
         FirebaseStorage storage = FirebaseStorage.DefaultInstance;
 
         // Create a storage reference from our storage service
-        storageReference = storage.GetReferenceFromUrl("gs://mmoprivateserver-af6da.appspot.com/updateren.zip");
+        storageReference = storage.GetReferenceFromUrl("INSERT_LINK_HERE");
 
         //create a storage reference for image textures
         //LATER
